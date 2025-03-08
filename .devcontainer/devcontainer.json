@@ -1,7 +1,10 @@
 {
-    "name": "Astrochemistry Environment",
+    "name": "Complementi di Chimica I 2025",
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "extensions": ["ms-python.python"]
+    "extensions": ["ms-python.python"],
+    "settings": {
+        "python.defaultInterpreterPath": "/opt/conda/bin/python"
+    }
 }
